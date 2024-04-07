@@ -265,9 +265,9 @@ then
 if game:IsLoaded() then
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-main"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-save"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/heatdeck123/UI-Lib/main/robloxscripts/flux-inter"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "Virgo Spectrum [Premium]",
