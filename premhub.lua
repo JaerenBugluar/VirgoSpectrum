@@ -50,66 +50,7 @@ if game.PlaceId == 7449423635 then
         Request(Final1)
     end
     end
-    
-    local choices = {
-        "https://i.waifu.pics/xLoL-16.jpg", "https://i.waifu.pics/BwHGNNK.png", "https://i.waifu.pics/RBGn36s.jpeg", --1
-        "https://i.waifu.pics/hFkV1Ny.jpg", "https://i.waifu.pics/-ABlAvr.jpg", "https://i.waifu.pics/~FptP42.jpeg", --2
-        "https://i.waifu.pics/S0v1yqP.jpeg", "https://i.waifu.pics/8m-r1_O.png", "https://i.waifu.pics/tE7-FfJ.jpg", --3
-        "https://i.waifu.pics/wlvCPrF.jpg", "https://i.waifu.pics/MGCFWn1.jpg", "https://i.waifu.pics/vI9Hgee.jpg", --4
-        "https://i.waifu.pics/ueqBS0o.jpg", "https://i.waifu.pics/ZBCHHyT.jpg", "https://i.waifu.pics/rF-pZ8a.jpg", --5
-        "https://i.waifu.pics/-7c14TL.png", "https://i.waifu.pics/R5n5P7f.png", "https://i.waifu.pics/e6r~srS.png", --6
-        "https://i.waifu.pics/DxxMnby.jpg", "https://i.waifu.pics/Dci8~Lu.jpg", "https://i.waifu.pics/II9WeHB.png", --7
-        "https://i.waifu.pics/i~RQhRD.png", "https://i.waifu.pics/kYWN_ze.jpg", "https://i.waifu.pics/rzLcgTU.jpg", --8
-        "https://i.waifu.pics/vd4XAVZ.jpg", "https://i.waifu.pics/u~qTv5c.jpg", "https://i.waifu.pics/ryft10A.jpg", --9
-        "https://i.waifu.pics/1czwZu1.jpg", "https://i.waifu.pics/wNzff3p.png", "https://i.waifu.pics/_Yp1A7O.jpg", --10
-        "https://i.waifu.pics/k-akF2p.jpg", "https://i.waifu.pics/MHrvoGY.jpg", "https://i.waifu.pics/DmrSW~9.jpg", --11
-        "https://i.waifu.pics/3x~ovC6.jpg", "https://i.waifu.pics/xUYXg76.png", "https://i.waifu.pics/MxWWsnO.jpeg", --12
-        "https://i.waifu.pics/8DSLwjr.png", "https://i.waifu.pics/QQW7VKy.jpg", "https://i.waifu.pics/vwRNvPe.jpg", --13
-        "https://i.waifu.pics/fuGfYQJ.jpg", "https://i.waifu.pics/mUTwf4z.jpg", "https://i.waifu.pics/n6U5SHh.png", --14
-        "https://i.waifu.pics/Y_cKxGZ.jpg", "https://i.waifu.pics/UT0Lbfo.jpeg", "https://i.waifu.pics/EyNE0NL.jpg", --15
-        "https://i.waifu.pics/~VVdn7B.png", "https://i.waifu.pics/qjEV-At.jpg", "https://i.waifu.pics/CNzs4Pd.jpg",--16
-        "https://i.waifu.pics/-zk792B.jpg", "https://i.waifu.pics/czCeUqy.jpg", "https://i.waifu.pics/NOJicBh.png",--17
-        "https://i.waifu.pics/S0v1yqP.jpeg", "https://i.waifu.pics/3x8hEE1.png", "https://i.waifu.pics/brv-GJu.jpg",--18
-        "https://i.waifu.pics/yn_F4Nt.jpeg", "https://i.waifu.pics/Q5BE0Qt.jpg", "https://i.waifu.pics/jtKUwbl.png",--19
-        "https://i.waifu.pics/L~qlLcJ.jpg", "https://i.waifu.pics/rc2YxI-.png", "https://i.waifu.pics/bwCsw8q.jpg",--20
-        "https://i.waifu.pics/Tj6Wzwo.png", "https://i.waifu.pics/Ojsl~2a.jpg", "https://i.waifu.pics/cu~8th-.jpg", --21
-        "https://i.waifu.pics/U4WPv9I.jpg", "https://i.waifu.pics/E4jszNV.jpeg", "https://i.waifu.pics/38QXoHc.jpeg", --22
-        "https://i.waifu.pics/KJnKOgU.jpg", "https://i.waifu.pics/i1QE8~W.com_0265.jpg", "https://i.waifu.pics/7O7N6UP.png", --23
-        "https://i.waifu.pics/h15rEN_.jpg", "https://i.waifu.pics/B_Sy4E_.png", "https://i.waifu.pics/HjkIsP1.png", "https://i.waifu.pics/tZifc8D.png", --24
-        "https://i.waifu.pics/ylZ6rIU.jpg", "https://i.waifu.pics/4eSVOil.jpg", "https://i.waifu.pics/ZV7J1WW.png", --25
-        "https://i.waifu.pics/MjtH3Ha.jpg", "https://i.waifu.pics/cG2o0Hs.jpg", "https://i.waifu.pics/_zlfBgp.jpg",
-        "https://i.waifu.pics/dPXxQqE.png", "https://i.waifu.pics/4d8jVu4.jpg", "https://i.waifu.pics/0W~KpRc.jpg",
-        "https://i.waifu.pics/q9TWFa2.png", "https://i.waifu.pics/8hqFjfL.png", "https://i.waifu.pics/5SYyPac.png",
-        "https://i.waifu.pics/jDrf_Ch.jpg", "https://i.waifu.pics/Fs1hUxz.jpg", "https://i.waifu.pics/5DWHrk_.png",
-        "https://i.waifu.pics/UyzDyil.jpg", "https://i.waifu.pics/mbQ4c4V.jpg", "https://i.waifu.pics/Dj~3I8q.jpg",
-        "https://i.waifu.pics/5At1P4A.jpg", "https://i.waifu.pics/bodE1ZR.png", "https://i.waifu.pics/BA_QzLq.jpg",
-        "https://i.waifu.pics/s1DLRKM.png", "https://i.waifu.pics/DjgwmRf.jpg", "https://i.waifu.pics/wt2ZmoY.png", 
-        "https://i.waifu.pics/JREnutK.png", "https://i.waifu.pics/G8JK8lu.png", "https://i.waifu.pics/1goGv7V.jpg", 
-        "https://i.waifu.pics/Abh~zo3.jpg", "https://i.waifu.pics/lAI_XX6.jpg", "https://i.waifu.pics/0hx-3AP.png",
-        "https://i.waifu.pics/eULPvem.png", "https://i.waifu.pics/Oz2daI3.jpg", "https://i.waifu.pics/8CGNNMq.jpg", "https://i.waifu.pics/jIClgKA.jpg",
-        "https://i.waifu.pics/pojy7zt.jpg", "https://i.waifu.pics/WMTQpNf.jpg", "https://i.waifu.pics/GTxetnS.jpg", "https://i.waifu.pics/B-CZCbU.png",
-        "https://i.waifu.pics/CwK185b.jpg", "https://i.waifu.pics/Jngw47s.png", "https://i.waifu.pics/4lyqRvd.jpg", "https://i.waifu.pics/d22x2XR.jpg",
-        "https://i.waifu.pics/2XuoPFb.png", "https://i.waifu.pics/i~n9IEk.jpg", "https://i.waifu.pics/SoQkXA3.jpg",
-        "https://i.waifu.pics/p3pJCrJ.jpg", "https://i.waifu.pics/LhA7EZ9.jpg", "https://i.waifu.pics/zOJvcV5.jpg",
-        "https://i.waifu.pics/P65Fb_X.jpg", "https://i.waifu.pics/-oA3loc.png", "https://i.waifu.pics/POqiwlb.jpg",
-        "https://i.waifu.pics/cKe~bpZ.jpg", "https://i.waifu.pics/jnuawXf.png", "https://i.waifu.pics/_laUTLb.jpg",
-        "https://i.waifu.pics/LOR7MBO.jpg", "https://i.waifu.pics/bzG5LVO.jpg", "https://i.waifu.pics/JIQ9QZ_.jpg",
-        "https://i.waifu.pics/6NYYSw6.png", "https://i.waifu.pics/9seL-Rc.jpg", "https://i.waifu.pics/z1rMzBR.jpg",
-        "https://i.waifu.pics/uc-SymC.jpg", "https://i.waifu.pics/2Xdpuov.png", "https://i.waifu.pics/FWE8ggD.png",
-        "https://i.waifu.pics/7tsyFFs.png", "https://i.waifu.pics/zkJ5AHV.png", "https://i.waifu.pics/8RHEB7A.png",
-        "https://i.waifu.pics/bzgUs3j.jpg", "https://i.waifu.pics/2RnEtbW.png", "https://i.waifu.pics/0AZnvOg.jpg",
-        "https://i.waifu.pics/tLc5RfN.png", "https://i.waifu.pics/3DpVCc3.jpg", "https://i.waifu.pics/CxL~Tbz.jpg",
-        "https://i.waifu.pics/VI2XzIl.png", "https://i.waifu.pics/bMH6oaI.png", "https://i.waifu.pics/20~zWP3.png",
-        "https://i.waifu.pics/VIJYb_Z.png", "https://i.waifu.pics/XcpL3nR.jpg", "https://i.waifu.pics/anKsYF2.png", 
-        "https://i.waifu.pics/GGX054U.jpg", "https://i.waifu.pics/ZV7J1WW.png", "https://i.waifu.pics/wRpvaDu.jpg",
-        "https://i.waifu.pics/_NBeyLj.png", "https://i.waifu.pics/xUB0UNx.jpg", "https://i.waifu.pics/lMiXE7j.png",
-        "https://i.waifu.pics/2X92FPH.jpeg", "https://i.waifu.pics/ysB8wtC.jpg", "https://i.waifu.pics/HlZeFoe.png", "https://i.waifu.pics/Wc5WkuE.png", "https://i.waifu.pics/_zlfBgp.jpg"
-    
-    }
-    
-    local randomIndex = math.random(1, #choices)
-    local selectedDay = choices[randomIndex]
-    
+       
     local LocalizationService = game:GetService("LocalizationService")
     local player = game.Players.LocalPlayer
     local HttpService = game:GetService("HttpService")
@@ -271,7 +212,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "Virgo Spectrum [Premium]",
-    SubTitle = "Welcome! "..game.Players.LocalPlayer.Name.." Enjoy!",
+    SubTitle = "Version 1.5",
     TabWidth = 160,
     Size = UDim2.fromOffset(515, 350),
     Acrylic = false,
