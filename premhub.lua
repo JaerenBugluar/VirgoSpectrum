@@ -216,7 +216,7 @@ local Window = Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(515, 350),
     Acrylic = false,
-    Theme = "Darker",
+    Theme = "Dark",
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
@@ -2856,10 +2856,10 @@ end)
         end)
 --------------------------------------------------------------------------------------------------------------------------------------------
     Tabs.Main:AddButton({
-        Title = "config auto chest in discord click to join",
-        Description = "lấy script auto chest trong discord ấn để tham gia",
+        Title = "Auto Chest",
+        Description = "",
         Callback = function()
-            setclipboard("https://discord.gg/FtCARZZXje")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/Fram-Chest.lua"))()
         end
     })
 
@@ -2923,18 +2923,14 @@ end)
 
     Tabs.Main:AddButton({
         Title = "unlock fps (can use both with remove texture)",
-        Description = "mở khóa fps (giảm lag - reduce lag)",
+        Description = "",
         Callback = function()
             setfpscap(90)
         end
     })
-    Tabs.Main:AddParagraph({
-        Title = "Experiencing normal server lag?\nUnable to afford a private server?",
-        Content = "--------------------------------------------\njoin my discord to get 20 private server free!"
-    })
     Tabs.Main:AddButton({
         Title = "remove texture",
-        Description = "xóa hiệu ứng (giảm lag - reduce lag)",
+        Description = "",
         Callback = function()
             FPSBooster()
         end
