@@ -2609,7 +2609,7 @@ L_92_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 L_92_.BorderSizePixel = 0
 L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 L_92_.Size = UDim2.new(0, 50, 0, 50)
-L_92_.BackgroundTransparency = 1.000
+L_92_.BackgroundTransparency = 0
 L_92_.Image = "rbxassetid://17015092259"
 L_92_.Draggable = true
 L_92_.MouseButton1Click:Connect(function()
