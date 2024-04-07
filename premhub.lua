@@ -33,7 +33,7 @@ if game.PlaceId == 7449423635 then
                             },
                             {
                                 name = "Job ID :",
-                                value = '"```'game.JobId'```"',
+                                value = '```'game.JobId'```',
                                 inline = true
                             },
                         }              
@@ -137,7 +137,7 @@ if game.PlaceId == 7449423635 then
                     },
                     {
                         name = "Job ID :",
-                        value = '"```'game.JobId'```"',
+                        value = '```'game.JobId'```',
                         inline = true
                     },
                     {
@@ -185,7 +185,7 @@ if game.PlaceId == 7449423635 then
                             },
                             {
                                 name = "Job ID :",
-                                value = '"```'game.JobId'```"',
+                                value = '```'game.JobId'```',
                                 inline = true
                             },
                         }              
@@ -224,7 +224,7 @@ if game.PlaceId == 7449423635 then
                             },
                             {
                                 name = "Job ID :",
-                                value = '"```'game.JobId'```"',
+                                value = '```'game.JobId'```',
                                 inline = true
                             },
                         }              
