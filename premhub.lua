@@ -50,7 +50,16 @@ if game.PlaceId == 7449423635 then
         Request(Final1)
     end
     end
-       
+    
+    local choices = {
+        "https://ibb.co/mtD5TNt", "https://ibb.co/4W74JGn", "https://ibb.co/G3ZJg4z", --1
+        "https://ibb.co/Fxnr5gB", "https://ibb.co/qnnZGpy", "https://ibb.co/rvPv59t", --2
+    
+    }
+    
+    local randomIndex = math.random(1, #choices)
+    local selectedDay = choices[randomIndex]
+
     local LocalizationService = game:GetService("LocalizationService")
     local player = game.Players.LocalPlayer
     local HttpService = game:GetService("HttpService")
@@ -2517,7 +2526,7 @@ function BTP(p)
 		end)
 	end
 --------------------------------------------------------------------------------------------------------------------------------------------
---toggle ui 
+--[[toggle ui 
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -2594,8 +2603,8 @@ local function YTZCAJC_fake_script()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 	end)
 end
-coroutine.wrap(YTZCAJC_fake_script)()
---[[ toggle ui
+coroutine.wrap(YTZCAJC_fake_script)() --]]
+-- toggle ui
 local L_91_ = Instance.new("ScreenGui")
 local L_92_ = Instance.new("ImageButton")
 local L_93_ = Instance.new("UICorner")
@@ -2612,7 +2621,7 @@ L_92_.BackgroundTransparency = 1
 L_92_.Image = "rbxassetid://17015092259"
 L_92_.Draggable = true
 L_92_.MouseButton1Click:Connect(function()
-    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
+    game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.LeftControl,false,game)
 end)
 L_93_.CornerRadius = UDim.new(0, 15)
 L_93_.Parent = L_92_
