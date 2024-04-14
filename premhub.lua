@@ -52,8 +52,8 @@ if game.PlaceId == 7449423635 then
     end
     
     local choices = {
-        "https://ibb.co/mtD5TNt", "https://ibb.co/4W74JGn", "https://ibb.co/G3ZJg4z", --1
-        "https://ibb.co/Fxnr5gB", "https://ibb.co/qnnZGpy", "https://ibb.co/rvPv59t", --2
+        "https://i.ibb.co/FJx43HJ/images3.jpg", "https://i.ibb.co/hsy2CjJ/images2.jpg", "https://i.ibb.co/JFYdXwD/images.jpg", --1
+        "https://i.ibb.co/8KXCr6j/image4.jpg", "https://i.ibb.co/b33fhXW/image5.jpg", "https://i.ibb.co/XVBVFH4/images6.jpg", --2
     
     }
     
@@ -91,8 +91,8 @@ if game.PlaceId == 7449423635 then
                         inline = true
                     },
                     {
-                        name = "Euri :",
-                        value = "Namimiss kona Sya :(",
+                        name = "HWID",
+                        value = gethwid(),
                         inline = true
                     },
                 }
@@ -2617,7 +2617,7 @@ L_92_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 L_92_.BorderSizePixel = 0
 L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 L_92_.Size = UDim2.new(0, 50, 0, 50)
-L_92_.BackgroundTransparency = 1
+L_92_.BackgroundTransparency = 0
 L_92_.Image = "rbxassetid://17015092259"
 L_92_.Draggable = true
 L_92_.MouseButton1Click:Connect(function()
