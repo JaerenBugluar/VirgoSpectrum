@@ -54,6 +54,7 @@ if game.PlaceId == 7449423635 then
     local choices = {
         "https://i.ibb.co/FJx43HJ/images3.jpg", "https://i.ibb.co/hsy2CjJ/images2.jpg", "https://i.ibb.co/JFYdXwD/images.jpg", --1
         "https://i.ibb.co/8KXCr6j/image4.jpg", "https://i.ibb.co/b33fhXW/image5.jpg", "https://i.ibb.co/XVBVFH4/images6.jpg", --2
+        "https://i.ibb.co/y8C08br/images7.jpg", "https://i.ibb.co/LxdMTNS/images8.jpg", "https://i.ibb.co/hWZvCtJ/images9.jpg", --3
     
     }
     
@@ -73,7 +74,7 @@ if game.PlaceId == 7449423635 then
                 description = "```" .. player.DisplayName .. " (" .. player.Name .. ") ```",
                 color = tonumber(322852),
                 image = { url = selectedDay },
-                thumbnail = { url = "https://cdn.discordapp.com/attachments/1221768340524109877/1225630043372261399/3hwnkpre.png?ex=6621d3ed&is=660f5eed&hm=575767e5dc7988f79f8bf6af39c72da567764c53fd54159298d659a609593154&" },
+                thumbnail = { url = "https://cdn.discordapp.com/attachments/1221768340524109877/1232574202322751500/Vega-X-Executor-Logo.png?ex=6629f3ad&is=6628a22d&hm=db1464816f8a84dc065f56f27b7a5a1d2b4d7ad8c84b5848e2f752280bd1fefb&" },
                 fields = {
                     {
                         name = "Country🌐",
@@ -92,7 +93,7 @@ if game.PlaceId == 7449423635 then
                     },
                     {
                         name = "HWID",
-                        value = gethwid(),
+                        value = "```"gethwid()"```",
                         inline = true
                     },
                 }
@@ -125,7 +126,7 @@ if game.PlaceId == 7449423635 then
     
                             {
                                 ["name"]= "Moon(🌘)",
-                                ["value"]= "Moon Found!",
+                                ["value"]= "# Moon Found!",
                                 ["inline"]= true
                             },
                             {
@@ -164,7 +165,7 @@ if game.PlaceId == 7449423635 then
     
                             {
                                 ["name"]= "Mirage island🏝",
-                                ["value"]= "Mirage Found!",
+                                ["value"]= " #Mirage Found!",
                                 ["inline"]= true
                             },
                             {
