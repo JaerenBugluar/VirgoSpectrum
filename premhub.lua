@@ -93,7 +93,7 @@ if game.PlaceId == 7449423635 then
                     },
                     {
                         name = "HWID",
-                        value = "```"gethwid()"```",
+                        value = gethwid(),
                         inline = true
                     },
                 }
