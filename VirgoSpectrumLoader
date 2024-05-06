@@ -1,0 +1,7 @@
+repeat task.wait() until game:IsLoaded()
+local TablePlace = {7449423635,2753915549,4442272183}
+if table.find(TablePlace,game.PlaceId) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JaerenBugluar/VirgoSpectrum2.0/main/2.0%20Virgo%20Spectrum.lua"))()
+else
+    game.Players.LocalPlayer:Kick("Not Support Game!😞")
+end
